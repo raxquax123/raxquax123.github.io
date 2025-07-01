@@ -29,11 +29,12 @@
 
     <header id="header">
       <img src="logo.png">
-      <h1>Simple Website</h1>
+      <h1>Hoi, I'm Jamie!</h1>
       
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
         <li><a href="#home">home</a></li>
+        <li><a href="#science">science</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#contact">contact</a></li>
       </ul>                 
@@ -49,11 +50,51 @@
               This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
             </p>
           </div>
+
+          <div id="science" class="content-region hide">
+            <h2>Science</h2>
+            <p>
+              <style>
+                .pdf {
+                    width: 100%;
+                    aspect-ratio: 4 / 3;
+                }
+            
+                .pdf,
+                html,
+                body {
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+            
+                h1,
+                h3 {
+                    text-align: center;
+                }
+            
+                h1 {
+                    color: green;
+                }
+            </style>
+            
+            <body>
+            
+                <h1>NAM 2025 poster</h1>
+                <h3>Tracing cosmic structure post-reionization with neutral hydrogen</h3>
+                <object class="pdf" 
+                        data="NAM2025.pdf"
+                        width="800"
+                        height="500">
+                </object>
+            </body>
+            </p>
+          </div>
           
           <div id="about" class="content-region hide">
             <h2>About</h2>
             <p>
-              My name's Jamie Incley - I'm a PhD student in Astrophysics at the University of Manchester, supervised by Dr. Laura Wolz! My research focuses on 21cm cosmology, particularly at the end of the Epoch of Reionization and the transition to late-time large-scale structure in the universe. I mostly work with simulations, but I enjoy all aspects of cosmology! <br />
+              My name is Jamie Incley - I'm a PhD student in Astrophysics at the University of Manchester, supervised by Dr. Laura Wolz! My research focuses on 21cm cosmology, particularly at the end of the Epoch of Reionization and the transition to late-time large-scale structure in the universe. I mostly work with simulations, but I enjoy all aspects of cosmology! <br />
               I did my bachelor's and master's in Natural Sciences at the University of Cambridge, specialising in physics for my bachelor's, and astrophysics for my master's.
             </p>
           </div>
